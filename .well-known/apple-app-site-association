@@ -1,47 +1,48 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appIDs": [
-                    "F8R2SRZG33.com.astro.shop.staging"
-                ],
-                "components": [
-                    {
-                        "/": "*",
-                        "?": {
-                            "$web_only": "true"
-                        },
-                        "exclude": true,
-                        "comment": "Matches any URL whose path is * and which has a query item with name '$web_only' and value 'true' and instructs the system NOT to open it as a Universal link"
-                    },
-                    {
-                        "/": "*",
-                        "?": {
-                            "%24web_only": "true"
-                        },
-                        "exclude": true,
-                        "comment": "Matches any URL whose path is * and which has a query item with name '%24web_only' and value 'true' and instructs the system NOT to open it as a Universal link"
-                    },
-                    {
-                        "/": "/e/*",
-                        "exclude": true,
-                        "comment": "Matches any URL whose path is /e/* and instructs the system NOT to open it as a Universal link"
-                    },
-                    {
-                        "/": "*",
-                        "comment": "Matches any URL whose path is * and instructs the system to open it as a Universal link"
-                    },
-                    {
-                        "/": "/",
-                        "comment": "Matches any URL whose path is / and instructs the system to open it as a Universal link"
-                    }
-                ]
-            }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "F8R2SRZG33.com.astro.shop.staging"
+        ],
+        "components": [
+          {
+            "/": "*",
+            "?": {
+              "$web_only": "true"
+            },
+            "exclude": true,
+            "comment": "Matches any URL whose path is * and which has a query item with name '$web_only' and value 'true' and instructs the system NOT to open it as a Universal link"
+          },
+          {
+            "/": "*",
+            "?": {
+              "%24web_only": "true"
+            },
+            "exclude": true,
+            "comment": "Matches any URL whose path is * and which has a query item with name '%24web_only' and value 'true' and instructs the system NOT to open it as a Universal link"
+          },
+          {
+            "/": "/e/*",
+            "exclude": true,
+            "comment": "Matches any URL whose path is /e/* and instructs the system NOT to open it as a Universal link"
+          },
+          {
+            "/": "*",
+            "comment": "Matches any URL whose path is * and instructs the system to open it as a Universal link"
+          },
+          {
+            "/": "/",
+            "comment": "Matches any URL whose path is / and instructs the system to open it as a Universal link"
+          }
         ]
-    },
-
-    "webcredentials": {
-      "apps": [ "F8R2SRZG33.com.astro.shop.staging" ]
-   },
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "F8R2SRZG33.com.astro.shop.staging"
+    ]
+  }
 }
